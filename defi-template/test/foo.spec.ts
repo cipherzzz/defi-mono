@@ -7,5 +7,4 @@ describe('Foo', async function () {
     let amtBefore = await DAI.balanceOf(wallet.address);
     expect(Number(amtBefore)).to.gt(Number(daiAmountIn.mul(parseUnits('10', 0))));
   });
-
 });
